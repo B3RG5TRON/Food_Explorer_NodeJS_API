@@ -1,0 +1,10 @@
+node_modules
+.env
+dataBase.db
+tmp/**/*.png
+tmp/**/*.jpg
+tmp/**/*.jpeg
+tmp/**/*.gif
+tmp/**/*.bmp
+tmp/**/*.webp
+tmp/**/*.svg
