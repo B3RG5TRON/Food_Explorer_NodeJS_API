@@ -10,7 +10,7 @@ class UsersValidatedControllers {
     } else {
       const verifiedUser = await knex("users").where({ id: user.id }).first()
 
-      if (user.role === verifiedUser.role) {
+      if (verifiedUser && user.role === verifiedUser.role) {
         routeAuthorization = true
       } else {
         routeAuthorization = false
