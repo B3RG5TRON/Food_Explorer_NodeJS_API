@@ -1,11 +1,7 @@
-# Food Explorer API 🍽️
-
-<p align="center">
-  <img src="SEU_LOGO_AQUI" width="500" height="85" alt="Food Explorer Logo" />
+<p align="center"><img src="https://raw.githubusercontent.com/gist/B3RG5TRON/cd3fe42f3def995f9f073ec0cad621e3/raw/ac6ceae7c24c859342521162b46b6c3b552d4639/foodExplorerLogo.svg" alt="Food Explorer Logo" />
 </p>
 
-[![Deploy Status](SEU_BADGE_DEPLOY_AQUI)](COLAR_LINK)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<!-- [![Deploy Status](SEU_BADGE_DEPLOY_AQUI)](COLAR_LINK) -->
 
 ## 📑 Índice
 
@@ -54,13 +50,13 @@ As seguintes tecnologias foram empregadas na criação deste projeto:
 Clone o projeto:
 
 ```bash
-git clone git@github.com:COLAR_LINK
+git clone https://github.com/B3RG5TRON/Food_Explorer_NodeJS_API.git
 ```
 
 Entre na pasta do projeto:
 
 ```bash
-cd Food_Explorer_API
+cd Food_Explorer_NodeJS_API
 ```
 
 Instale as dependências:
@@ -69,11 +65,11 @@ Instale as dependências:
 npm install
 ```
 
-Crie um arquivo `.env` com as configurações necessárias (exemplo abaixo):
+Crie um arquivo `.env` com as configurações necessárias (exemplo abaixo ou localizado no arquivo '.env.example'):
 
 ```env
 PORT=3333
-AUTH_SECRET=sua_chave_secreta
+AUTH_SECRET="default"
 ```
 
 Execute as migrations:
@@ -93,11 +89,13 @@ A API estará disponível em:
 
 ## 🔗 Front-end
 
-Acesse: [COLAR_LINK](COLAR_LINK)
+Acesse: [https://github.com/B3RG5TRON/Food_Explorer_ReactJS.git](https://github.com/B3RG5TRON/Food_Explorer_ReactJS.git)
 
 ## 📄 Licença
 
 MIT © Eduardo Bergstron
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 📬 Contato
 
