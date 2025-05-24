@@ -27,7 +27,7 @@ class UserControllers {
   }
 
   async create(request, response) {
-    const { name, email, password } = request.body
+    const { name, email, password, role } = request.body
 
     const checkEmailExists = await knex("users").where({ email }).first()
 
@@ -41,6 +41,7 @@ class UserControllers {
       name,
       email,
       password: hashPassword,
+      role: role || "customer", // salva role, padrão customer se não vier
     })
 
     return response.json({
